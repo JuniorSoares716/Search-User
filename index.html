@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <img id="loading" src="" alt="" srcset="">
+        <h1>Pesquisa de Usuário</h1>
+        <div class="pesquisa">
+
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="namePesquisa" type="text">
+                    <a id="btnSearch" class="waves-effect waves-light btn">Pesquisar</a>
+                </div>
+            </div>
+        </div>
+        <div class="session col s12">
+            <div class="col s6 caixa usuarios">
+                <h3 id="userFilter">Nenhum Usuario Filtrado</h3>
+                <div id="showUser">
+
+                </div>
+            </div>
+            <div class="col s6 caixa estatisticas">
+                <h3 id="userEstatistica">Nada a ser exibido</h3>
+                <p id="sexoMasculino"></p>
+                <p id="sexoFeminino"></p>
+                <p id="somaIdades"></p>
+                <p id="mediaIdades"></p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
